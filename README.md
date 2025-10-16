@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🧠 Elasticsearch Learning Lab  
-### by **Fatemeh** | Computer Engineer & DevOps Learner  
+### by **Fatemeh** | Computer Engineer & DevOps Learner &  Backend Learner
 
 ![Elastic Logo](https://upload.wikimedia.org/wikipedia/commons/f/f4/Elasticsearch_logo.svg)
 
