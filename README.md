@@ -33,9 +33,9 @@ It includes theoretical explanations, Python scripts, and real queries tested on
 | 10 | KQL & Kibana | Querying via Kibana dashboards and time-based visualizations |
 
 ---
-
-## ⚙️ Project Structure
 '''
+وو'و
+## ⚙️ Project Structure
 ووو
 elasticsearch-project/
 │
@@ -56,6 +56,7 @@ elasticsearch-project/
 ├── requirements.txt # Python dependencies (e.g. elasticsearch)
 ├── README.md # Project documentation (this file)
 └── LICENSE # License file (e.g., MIT)
+'''
 ووو
 Copy code
 
