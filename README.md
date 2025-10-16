@@ -146,5 +146,5 @@ If you find this useful, give it a ⭐ on GitHub — it helps me grow and share 
 
 <div align="center">
 💬 "Search is not just finding — it’s understanding data."
-— Fatemeh
+— Fatemeh Jani
 
