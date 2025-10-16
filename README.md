@@ -36,23 +36,29 @@ It includes theoretical explanations, Python scripts, and real queries tested on
 
 ## ⚙️ Project Structure
 
-elasticsearch-learning-lab/
+
+elasticsearch-project/
 │
-├── scripts/
-│ └── bulk_insert_100.py # Python script for bulk document insertion
+├── 📁 data/ # Sample JSON or CSV data for indexing
 │
-├── queries/
-│ ├── 01_basic_match.json
-│ ├── 02_filter_range.json
-│ ├── ...
-│ └── 100_complex_combined.json
+├── 📁 scripts/ # Python scripts for working with Elasticsearch
+│ ├── create_index.py # Script to create an index
+│ ├── insert_documents.py # Script to insert 100 documents into Elasticsearch
+│ ├── queries_examples.py # Contains 100 queries (from simple to complex)
 │
-├── templates/
-│ └── index_template.json # Template for index mapping and validation
+├── 📁 notebooks/ # Optional Jupyter notebooks for analysis and visualization
+│ └── elastic_queries.ipynb
 │
-├── docker-compose.yml # Optional setup for running Elasticsearch & Kibana via Docker
+├── 📁 dashboards/ # Kibana dashboards or screenshots
+│ └── kibana_dashboard.png
 │
-└── README.md # You are here 😄
+├── .gitignore # Files and folders to be ignored by Git
+├── requirements.txt # Python dependencies (e.g. elasticsearch)
+├── README.md # Project documentation (this file)
+└── LICENSE # License file (e.g., MIT)
+
+Copy code
+
 
 yaml
 Copy code
