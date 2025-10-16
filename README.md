@@ -33,29 +33,31 @@ It includes theoretical explanations, Python scripts, and real queries tested on
 | 10 | KQL & Kibana | Querying via Kibana dashboards and time-based visualizations |
 
 ---
-'''و
+و
 ## ⚙️ Project Structure
-,,,
+
+```
 elasticsearch-project/
 │
-├── 📁 data/ # Sample JSON or CSV data for indexing
+├── 📁 data/                     # Sample JSON or CSV data for indexing
 │
-├── 📁 scripts/ # Python scripts for working with Elasticsearch
-│ ├── create_index.py # Script to create an index
-│ ├── insert_documents.py # Script to insert 100 documents into Elasticsearch
-│ ├── queries_examples.py # Contains 100 queries (from simple to complex)
+├── 📁 scripts/                  # Python scripts for working with Elasticsearch
+│   ├── create_index.py          # Script to create an index
+│   ├── insert_documents.py      # Script to insert 100 documents into Elasticsearch
+│   ├── queries_examples.py      # Contains 100 queries (from simple to complex)
 │
-├── 📁 notebooks/ # Optional Jupyter notebooks for analysis and visualization
-│ └── elastic_queries.ipynb
+├── 📁 notebooks/                # Optional Jupyter notebooks for analysis and visualization
+│   └── elastic_queries.ipynb
 │
-├── 📁 dashboards/ # Kibana dashboards or screenshots
-│ └── kibana_dashboard.png
+├── 📁 dashboards/               # Kibana dashboards or screenshots
+│   └── kibana_dashboard.png
 │
-├── .gitignore # Files and folders to be ignored by Git
-├── requirements.txt # Python dependencies (e.g. elasticsearch)
-├── README.md # Project documentation (this file)
-└── LICENSE # License file (e.g., MIT)
-,,,
+├── .gitignore                   # Files and folders to be ignored by Git
+├── requirements.txt             # Python dependencies (e.g. elasticsearch)
+├── README.md                    # Project documentation (this file)
+└── LICENSE                      # License file (e.g., MIT)
+```
+
 Copy code
 
 yaml
