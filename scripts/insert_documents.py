@@ -42,8 +42,3 @@ for i in range (1,101):
 
 
 helpers.bulk(client, document)
-print(f"Successfully inserted {len(document)} documents into '{index_name}' index.")
-
-
-count = client.count(index=index_name)["count"]
-print(f"Total documents in '{index_name}': {count}")
